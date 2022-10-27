@@ -1,4 +1,4 @@
-import React from 'react'
+
 import LinkSection from './LinkSection'
 import ProfileSection from './ProfileSection'
 

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import profile from '../images/Photograph.jpg'
 
 const ProfileSection = () => {
