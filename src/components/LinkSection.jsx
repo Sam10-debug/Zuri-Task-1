@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 
 const LinkSection = () => {
@@ -13,7 +13,8 @@ const LinkSection = () => {
 			<li id='books' className="h-[76px] flex my-4 rounded-md justify-center items-center links bg-gray-200 text-gray-900 font-semibold"><a href=" http://books.zuri.team">Zuri Books</a></li>
 			<li id='book__python' className="h-[76px] flex my-4 rounded-md justify-center items-center links bg-gray-200 text-gray-900 font-semibold"><a href="https://books.zuri.team">Python Books</a></li>
 			<li id='pitch' className="h-[76px] flex my-4 rounded-md justify-center items-center links bg-gray-200 text-gray-900 font-semibold"><a href=" https://background.zuri.team">Background Check for Coders</a></li>
-			<li id='book__design' className="h-[76px] flex rounded-md justify-center items-center links bg-gray-200 text-gray-900 font-semibold"><a href="https://books.zuri.team/design-rules">Design Books</a></li>
+			<li id='book__design' className="h-[76px] flex rounded-md my-4  justify-center items-center links bg-gray-200 text-gray-900 font-semibold"><a href="https://books.zuri.team/design-rules">Design Books</a></li>
+			<Link to="/contact"><li id='contact' className="h-[76px] flex rounded-md justify-center items-center links bg-gray-200 text-gray-900 font-semibold">Contact Me</li></Link>
 		</ul>
 	</section>
   )

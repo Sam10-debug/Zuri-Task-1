@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap')
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+	 font-family: 'Inter', sans-serif;
+}
 
 .twitter-text{
 	color: #101828;
@@ -21,4 +27,36 @@ li{
 }
 svg{
 	cursor: pointer;
+}
+.form h1{
+	color: #101828;
+}
+.form p{
+	font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #475467;
+
+}
+input,textarea{
+	padding: 6px;
+	border-radius: 5px;
+}
+label{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #344054;
+	margin-right: 5px;
+}
+form>div{
+	margin-block: 10px;
+}
+.form{
+	padding: 1rem 10px;
+}
+input[type="checkbox"]{
+	margin-right: 7px;
 }
